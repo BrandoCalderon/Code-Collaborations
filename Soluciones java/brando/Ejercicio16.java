@@ -8,6 +8,8 @@ class Ejercicio16 {
 		String productos = new Scanner(System.in).nextLine();
 		//Ahora remplazamos todas las comas (que estén antecedidas y seguidas por 0 o más espacios en blanco) por saltos de linea.
 		System.out.println(productos.replaceAll( "\\s*,\\s*", "\n" ));
+		
+		
 
 	
 	}
